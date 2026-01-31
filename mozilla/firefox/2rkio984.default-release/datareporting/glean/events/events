@@ -1,0 +1,18 @@
+{"timestamp":7211761,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"false","loadfail_reason":"File doesn't exist.","glean_timestamp":"1769876994929"}}
+{"timestamp":7211765,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","glean_timestamp":"1769876994934","loadfail_reason":"N/A","path_key":"recovery"}}
+{"timestamp":7211766,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recovery","can_load":"true","glean_timestamp":"1769876994934","loadfail_reason":"N/A"}}
+{"timestamp":7211766,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_ok":"true","shutdown_reason":"final-state-write-incomplete","glean_timestamp":"1769876994935"}}
+{"timestamp":7212031,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1769876995199"}}
+{"timestamp":7212145,"category":"nimbus_events","name":"startup_database_consistency","extra":{"primary":"database","glean_timestamp":"1769876995314","total_store_count":"31","trigger":"startup","total_db_count":"31","db_active_count":"30","store_active_count":"30"}}
+{"timestamp":7212175,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1769876995343"}}
+{"timestamp":7212186,"category":"doh","name":"state_rollback","extra":{"value":"null","glean_timestamp":"1769876995354"}}
+{"timestamp":7212315,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"glean_timestamp":"1769876995483","value":"ai-chatbot-page-summarization-mvp-v2-copy","reason":"feature-conflict"}}
+{"timestamp":7212315,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"ai-chatbot-page-summarization-mvp-v2-copy","glean_timestamp":"1769876995484"}}
+{"timestamp":7212315,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1769876995484"}}
+{"timestamp":7212325,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1769876995494"}}
+{"timestamp":7212343,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1769876995511"}}
+{"timestamp":7212345,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1769876995513","value":"not-major"}}
+{"timestamp":7224104,"category":"sap","name":"counts","extra":{"partner_code":"MOZI","provider_id":"bing","provider_name":"Bing","overridden_by_third_party":"false","source":"urlbar_searchmode","glean_timestamp":"1769877007272"}}
+{"timestamp":7224104,"category":"urlbar","name":"engagement","extra":{"sap":"urlbar","search_engine_default_id":"google-b-d","groups":"heuristic","n_chars":"15","results":"search_engine","available_semantic_sources":"none","selected_result":"search_engine","interaction":"typed","provider":"UrlbarProviderHeuristicFallback","n_results":"1","selected_position":"1","glean_timestamp":"1769877007273","n_words":"1","engagement_type":"enter","search_mode":"search_engine","actions":"none"}}
+{"timestamp":7224808,"category":"serp","name":"impression","extra":{"impression_id":"fe87cf2c-138a-4f57-a26d-51888dace83a","is_signed_in":"false","source":"urlbar_searchmode","glean_timestamp":"1769877007976","shopping_tab_displayed":"false","is_shopping_page":"false","provider":"bing","partner_code":"MOZI","is_private":"false","tagged":"true"}}
+{"timestamp":7230064,"category":"serp","name":"engagement","extra":{"target":"non_ads_link","impression_id":"fe87cf2c-138a-4f57-a26d-51888dace83a","action":"clicked","glean_timestamp":"1769877013232"}}
