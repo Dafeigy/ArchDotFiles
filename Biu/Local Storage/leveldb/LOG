@@ -1,0 +1,8 @@
+2026/02/02-01:21:27.227 23abe9 Creating DB /home/nul4i/.config/Biu/Local Storage/leveldb since it was missing.
+2026/02/02-01:21:27.230 23abe9 Reusing MANIFEST /home/nul4i/.config/Biu/Local Storage/leveldb/MANIFEST-000001
+2026/02/02-01:29:27.408 23abed Level-0 table #5: started
+2026/02/02-01:29:27.412 23abed Level-0 table #5: 18127 bytes OK
+2026/02/02-01:29:27.413 23abed Delete type=0 #3
+2026/02/02-01:31:27.408 23abed Level-0 table #7: started
+2026/02/02-01:31:27.411 23abed Level-0 table #7: 16070 bytes OK
+2026/02/02-01:31:27.412 23abed Delete type=0 #4

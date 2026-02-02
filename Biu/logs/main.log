@@ -1,0 +1,4 @@
+[2026-02-02 01:21:27.259] [info]  Checking for update
+[2026-02-02 01:21:27.278] [info]  Generated new staging user ID: 55d369e8-5376-51ae-9ddc-cb52a46c428d
+[2026-02-02 01:21:29.042] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-02 01:31:25.055] [error] 无法获取音频播放链接 { type: 'mv', bvid: 'BV1Da411S7pq', title: '已失效视频', mvData: [] }
