@@ -179,3 +179,18 @@
 [2026-02-11 15:39:32.520] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
     at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-11 16:37:42.249] [info]  Checking for update
+[2026-02-11 16:37:44.498] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-11 17:32:44.918] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-11 17:37:42.349] [info]  Checking for update
+[2026-02-11 17:39:56.204] [error] Error: Error: net::ERR_CONNECTION_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-11 17:39:56.205] [error] [unhandledRejection] Error: net::ERR_CONNECTION_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-11 18:37:42.351] [info]  Checking for update
+[2026-02-11 18:37:44.708] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
