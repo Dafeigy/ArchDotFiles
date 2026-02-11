@@ -45,7 +45,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -105,16 +105,16 @@
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
+                            "x": -1.5996112823486328,
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.1434028148651123,
+                            "y": 1.1433334350585938
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.6000364422798157,
+                            "y": 0.6000000238418579
                         },
                         "bounds": {
                             "x": 0.0,
@@ -217,7 +217,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": -10,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
@@ -233,6 +233,10 @@
             "autoStartRecordTimer": false,
             "pauseRecordTimer": true
         }
+    },
+    "resolution": {
+        "x": 3292,
+        "y": 2058
     },
     "version": 2
 }

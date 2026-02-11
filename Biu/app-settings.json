@@ -1,17 +1,17 @@
 {
 	"appSettings": {
-		"autoStart": false,
-		"closeWindowOption": "hide",
-		"fontFamily": "system-ui",
-		"borderRadius": 8,
 		"downloadPath": "/home/nul4i/Downloads",
-		"primaryColor": "#1ed760",
+		"closeWindowOption": "hide",
+		"autoStart": false,
+		"fontFamily": "system-ui",
+		"primaryColor": "#725dcf",
 		"backgroundColor": "",
+		"borderRadius": 8,
 		"audioQuality": "auto",
 		"hiddenMenuKeys": [],
 		"displayMode": "list",
 		"ffmpegPath": "",
-		"themeMode": "system",
+		"themeMode": "dark",
 		"pageTransition": "none",
 		"showSearchHistory": true,
 		"proxySettings": {

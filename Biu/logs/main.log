@@ -2,3 +2,173 @@
 [2026-02-02 01:21:27.278] [info]  Generated new staging user ID: 55d369e8-5376-51ae-9ddc-cb52a46c428d
 [2026-02-02 01:21:29.042] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
 [2026-02-02 01:31:25.055] [error] 无法获取音频播放链接 { type: 'mv', bvid: 'BV1Da411S7pq', title: '已失效视频', mvData: [] }
+[2026-02-02 22:53:36.663] [info]  Checking for update
+[2026-02-02 22:53:40.854] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-05 14:40:03.568] [info]  Checking for update
+[2026-02-05 14:46:47.131] [error] Error: Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-05 14:46:47.133] [error] [unhandledRejection] Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-05 15:40:03.668] [info]  Checking for update
+[2026-02-05 15:44:48.117] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:45:18.134] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:45:48.148] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:46:18.195] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:46:39.836] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:48:18.258] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:49:18.021] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:50:18.085] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:50:48.102] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:51:18.118] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:52:18.150] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:52:48.164] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 15:57:01.847] [error] Error: Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-05 15:57:01.847] [error] [unhandledRejection] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-05 16:00:48.194] [warn]  [play-report] heartbeat failed AxiosError: timeout of 10000ms exceeded
+    at y.ontimeout (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:22240)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:01:08.213] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:01:38.228] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:02:08.247] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:02:38.014] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:03:08.025] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:03:38.037] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:04:08.059] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:04:38.075] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:05:08.094] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:05:38.105] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:06:08.121] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:06:38.152] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:07:08.166] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:07:38.184] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:08:08.199] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:08:38.215] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:09:08.232] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:09:38.249] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:10:08.263] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:10:38.029] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:11:08.044] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:11:38.059] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:12:08.072] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:12:38.091] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-05 16:13:08.103] [warn]  [play-report] heartbeat failed AxiosError: Network Error
+    at y.onerror (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:21979)
+    at tr.request (file:///opt/biu/resources/app.asar/dist/web/static/js/lib-axios.20242026.js:1:29856)
+    at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
+[2026-02-11 14:37:42.181] [info]  Checking for update
+[2026-02-11 14:37:44.208] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).

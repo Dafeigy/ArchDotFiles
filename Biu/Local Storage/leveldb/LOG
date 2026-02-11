@@ -1,8 +1,17 @@
-2026/02/02-01:21:27.227 23abe9 Creating DB /home/nul4i/.config/Biu/Local Storage/leveldb since it was missing.
-2026/02/02-01:21:27.230 23abe9 Reusing MANIFEST /home/nul4i/.config/Biu/Local Storage/leveldb/MANIFEST-000001
-2026/02/02-01:29:27.408 23abed Level-0 table #5: started
-2026/02/02-01:29:27.412 23abed Level-0 table #5: 18127 bytes OK
-2026/02/02-01:29:27.413 23abed Delete type=0 #3
-2026/02/02-01:31:27.408 23abed Level-0 table #7: started
-2026/02/02-01:31:27.411 23abed Level-0 table #7: 16070 bytes OK
-2026/02/02-01:31:27.412 23abed Delete type=0 #4
+2026/02/11-14:37:42.128 ac9ae Reusing MANIFEST /home/nul4i/.config/Biu/Local Storage/leveldb/MANIFEST-000001
+2026/02/11-14:37:42.129 ac9ae Recovering log #23
+2026/02/11-14:37:42.129 ac9ae Level-0 table #26: started
+2026/02/11-14:37:42.130 ac9ae Level-0 table #26: 15360 bytes OK
+2026/02/11-14:37:42.132 ac9ae Delete type=0 #23
+2026/02/11-14:37:42.132 ac9f6 Compacting 4@0 + 1@1 files
+2026/02/11-14:37:42.136 ac9f6 Generated table #28@0: 6 keys, 15611 bytes
+2026/02/11-14:37:42.136 ac9f6 Compacted 4@0 + 1@1 files => 15611 bytes
+2026/02/11-14:37:42.137 ac9f6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/11-14:37:42.137 ac9f6 Delete type=2 #18
+2026/02/11-14:37:42.137 ac9f6 Delete type=2 #20
+2026/02/11-14:37:42.137 ac9f6 Delete type=2 #22
+2026/02/11-14:37:42.137 ac9f6 Delete type=2 #24
+2026/02/11-14:37:42.137 ac9f6 Delete type=2 #26
+2026/02/11-14:38:42.138 ac9ae Level-0 table #30: started
+2026/02/11-14:38:42.145 ac9ae Level-0 table #30: 14910 bytes OK
+2026/02/11-14:38:42.146 ac9ae Delete type=0 #27
