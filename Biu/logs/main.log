@@ -172,3 +172,10 @@
     at async E (file:///opt/biu/resources/app.asar/dist/web/static/js/index.dd4c2d50.js:1:8301)
 [2026-02-11 14:37:42.181] [info]  Checking for update
 [2026-02-11 14:37:44.208] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-11 15:37:42.243] [info]  Checking for update
+[2026-02-11 15:39:32.519] [error] Error: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-11 15:39:32.520] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
