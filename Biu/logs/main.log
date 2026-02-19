@@ -194,3 +194,61 @@
     at SimpleURLLoaderWrapper.emit (node:events:519:28)
 [2026-02-11 18:37:42.351] [info]  Checking for update
 [2026-02-11 18:37:44.708] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-12 15:55:21.822] [info]  Checking for update
+[2026-02-12 15:55:23.643] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-12 16:55:21.924] [info]  Checking for update
+[2026-02-12 16:59:50.541] [error] Error: Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-12 16:59:50.542] [error] [unhandledRejection] Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-12 17:08:02.936] [error] 无法获取音频播放链接 { type: 'mv', bvid: 'BV1fwMizKEse', title: '已失效视频', mvData: [] }
+[2026-02-13 09:14:29.393] [info]  Checking for update
+[2026-02-13 09:14:30.896] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-13 10:14:29.492] [info]  Checking for update
+[2026-02-13 10:21:05.182] [error] Error: Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 10:21:05.182] [error] [unhandledRejection] Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 11:14:29.592] [info]  Checking for update
+[2026-02-13 11:16:00.026] [error] Error: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 11:16:00.027] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 12:14:29.692] [info]  Checking for update
+[2026-02-13 12:21:05.852] [error] Error: Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 12:21:05.852] [error] [unhandledRejection] Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 13:14:29.779] [info]  Checking for update
+[2026-02-13 13:20:58.066] [error] Error: Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 13:20:58.066] [error] [unhandledRejection] Error: net::ERR_CONNECTION_RESET
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 14:23:02.640] [info]  Checking for update
+[2026-02-13 14:24:33.010] [error] Error: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 14:24:33.011] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 15:23:02.740] [info]  Checking for update
+[2026-02-13 15:24:33.461] [error] Error: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 15:24:33.461] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-13 17:20:08.440] [info]  Checking for update
+[2026-02-13 17:20:08.494] [error] [unhandledRejection] Error: net::ERR_FAILED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)

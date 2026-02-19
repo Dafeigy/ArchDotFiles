@@ -12,9 +12,9 @@
   "modules-center": ["clock"],
   "modules-right": [
     // "custom/pacman",
-    "custom/keyboard-layout",
+    // "custom/keyboard-layout",
     "temperature",
-    "cpu",
+    // "cpu",
     // "memory",
     // "disk",
     "group/hardware",
