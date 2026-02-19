@@ -11,6 +11,10 @@ environment {
 	XMODIFIERS "@im=fcitx"
 }
 
+layer-rule{
+	match namespace="swww-daemonoverview"
+	place-within-backdrop true
+}
 
 input {
     keyboard {
@@ -276,6 +280,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-at-startup "swww-daemon"
+spawn-at-startup "swww-daemon" "-n" "overview"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "mako"
 spawn-at-startup "fcitx5"

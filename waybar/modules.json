@@ -78,9 +78,9 @@
     "tooltip-format": "Performance mode:{profile}",
     "tooltip": true,
     "format-icons": {
-      "performance": "󱐋",
-      "balanced": "",
-      "power-saver": ""
+      "performance": "󱐋 Maximum",
+      "balanced": " Balance",
+      "power-saver": " Minimum"
     }
   },
 
