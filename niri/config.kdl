@@ -11,6 +11,8 @@ environment {
 	XMODIFIERS "@im=fcitx"
 }
 
+include "colors.kdl"
+
 layer-rule{
 	match namespace="swww-daemonoverview"
 	place-within-backdrop true
@@ -164,7 +166,7 @@ layout {
     // `draw-border-with-background`.
 
     // You can change how the focus ring looks.
-    focus-ring {
+     focus-ring {
         // Uncomment this line to disable the focus ring.
         // off
 
@@ -381,7 +383,7 @@ binds {
     // wl-mirror
 	Mod+P repeat=false { spawn-sh "wl-mirror $(niri msg --json focused-output | jq -r .name)"; }
 	// waypaper
-    Mod+Alt+W hotkey-overlay-title="Manage Wallpaper: waypaper" {spawn "waypaper"; }
+    Mod+Alt+W hotkey-overlay-title="Manage Wallpaper: waypaper" {spawn "bash" "/home/nul4i/.config/swww-rofi/swww-rofi.sh"; }
     Mod+F2 {spawn-sh "pkill waybar || true && waybar" ;}
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }

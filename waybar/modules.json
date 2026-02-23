@@ -211,7 +211,7 @@
     "exec": "sh ~/.config/waybar/scripts/splayer.sh",
     "format": "{}",
     "on-click": "curl -s http://localhost:25884/api/control/toggle",
-    "interval": 5,
+    "interval": 30,
     "tooltip": true
   }
 }
