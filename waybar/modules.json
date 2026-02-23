@@ -206,6 +206,13 @@
     "on-click": "wlogout -p layer-shell -b 2",
     //"on-click": "~/.config/rofi/powermenu/powermenu.sh",
     "tooltip": false
+  },
+  "custom/splayer": {
+    "exec": "sh ~/.config/waybar/scripts/splayer.sh",
+    "format": "{}",
+    "on-click": "curl -s http://localhost:25884/api/control/toggle",
+    "interval": 5,
+    "tooltip": true
   }
 }
 
