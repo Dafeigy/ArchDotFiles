@@ -190,6 +190,7 @@ window#waybar {
     /* border-bottom: 2px solid @green; */
     border-radius: 10px;
     margin-right: 5px;
+	margin-left: 5px;
 }
 
 #network.disconnected {
@@ -219,7 +220,7 @@ window#waybar {
     /* border-bottom: 2px solid @red; */
 }
 
-#tray {
+#ytray {
     /* background-color: @base; */
     margin: 8px 5px;
     border-radius: 10px;
@@ -304,7 +305,10 @@ window#waybar {
  }
  
  #network {
-     color: #8fbcbb;
+     margin-left: 15px;
+	 margin-right: 15px;
+	 color: #8fbcbb;
+	 color: #ffffff;
  }
  
  #network.disabled {

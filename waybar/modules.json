@@ -169,8 +169,8 @@
      // "on-click": "nm-connection-editor",
 	 "on-click": "~/.config/rofi/wifi/wifi.sh &",
      // "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
-	 "interval": 5,
-	 "nospacing": 1
+	 "interval": 10,
+	 "nospacing": 2
   },
   "pulseaudio": {
     "format": "{icon} {volume}",
