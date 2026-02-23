@@ -1,8 +1,0 @@
-2026/02/23-12:20:52.032 129fc Creating DB /home/nul4i/.config/SPlayer/Local Storage/leveldb since it was missing.
-2026/02/23-12:20:52.039 129fc Reusing MANIFEST /home/nul4i/.config/SPlayer/Local Storage/leveldb/MANIFEST-000001
-2026/02/23-12:22:52.174 129ff Level-0 table #5: started
-2026/02/23-12:22:52.177 129ff Level-0 table #5: 23020 bytes OK
-2026/02/23-12:22:52.180 129ff Delete type=0 #3
-2026/02/23-12:23:52.174 129ff Level-0 table #7: started
-2026/02/23-12:23:52.178 129ff Level-0 table #7: 14427 bytes OK
-2026/02/23-12:23:52.179 129ff Delete type=0 #4
