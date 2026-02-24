@@ -88,7 +88,7 @@
     "interval": 10,
     "format": "󰍛 {usage}%",
     "rotate": 0,
-	// "on-click": "btop",
+	"on-click": "alacritty --config-file ~/.config/btop/alacritty_btop.toml -e btop",
     "format-alt": "{icon0}{icon1}{icon2}{icon3}",
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
   },
