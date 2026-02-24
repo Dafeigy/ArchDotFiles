@@ -221,10 +221,11 @@ window#waybar {
     /* border-bottom: 2px solid @red; */
 }
 
-#ytray {
+#tray {
     /* background-color: @base; */
     margin: 8px 5px;
     border-radius: 10px;
+
 }
 
 #custom-splayer {

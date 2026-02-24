@@ -88,8 +88,9 @@
     "interval": 10,
     "format": "󰍛 {usage}%",
     "rotate": 0,
+	// "on-click": "btop",
     "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
   },
   "memory": {
     "states": {
@@ -132,10 +133,10 @@
             "transition-left-to-right": false
         },        
         "modules": [
-            "custom/system",
-            "disk",
+             "custom/system",
+            //"disk",
             "cpu",
-	    "power-profiles-daemon",
+	        // "power-profiles-daemon",
             "memory"
             // "backlight",
             //"niri/language"
@@ -175,8 +176,8 @@
   "pulseaudio": {
     "format": "{icon} {volume}",
     "rotate": 0,
-    "format-muted": "婢",
-    "on-click": "pavucontrol",
+    "format-muted": "󰝟 0",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     // "on-scroll-up": "pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob",
     // "on-scroll-down": "pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob"
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",

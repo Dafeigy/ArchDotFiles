@@ -20,7 +20,7 @@
     // "disk",
     "group/hardware",
     "battery",
-    // "tray",
+    "tray",
     "network",
     "pulseaudio",
     "custom/power"
