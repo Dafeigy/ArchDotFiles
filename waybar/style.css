@@ -157,7 +157,7 @@ window#waybar {
 
 #custom-system {
     color: @secondary;
-    /* border-bottom: 2px solid @sky; */
+	/* border-bottom: 2px solid @sky; */
 }
 
 #cpu {
@@ -226,7 +226,8 @@ window#waybar {
 
 #tray {
     /* background-color: @base; */
-    margin: 5px 5px;
+    margin-right: 5px;
+	margin-left: 10px;
     border-radius: 10px;
 
 }
@@ -315,8 +316,8 @@ window#waybar {
  }
  
  #network {
-     margin-left: 15px;
-	 margin-right: 15px;
+     margin-left: 5px;
+	 margin-right: 5px;
 	 color: #8fbcbb;
 	 color: #ffffff;
  }
