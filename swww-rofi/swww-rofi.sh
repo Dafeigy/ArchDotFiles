@@ -55,7 +55,7 @@ swww img "$SELECTED" \
     --transition-type "any" \
     --transition-duration 3 \
     --transition-fps 60 \
-    --transition-bezier .43,1.19,1,.4
+    # --transition-bezier .43,1.19,1,.4
 
 #提取颜色
 matugen image "$SELECTED"

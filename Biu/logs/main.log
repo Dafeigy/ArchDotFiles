@@ -262,3 +262,9 @@
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
     at SimpleURLLoaderWrapper.emit (node:events:519:28)
 [2026-02-24 00:48:52.691] [info]  Checking for update
+[2026-02-24 01:05:33.115] [error] Error: Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-24 01:05:33.119] [error] [unhandledRejection] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)

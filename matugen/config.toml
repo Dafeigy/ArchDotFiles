@@ -11,6 +11,9 @@ post_hook ='pkill -SIGUSR2 waybar'
 #[templates.hyprland]
 #input_path = '~/.config/matugen/templates/hyprlock.conf'
 #output_path = '~/.config/hypr/colors.conf'
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
 
 [templates.btop]
 input_path = '~/.config/matugen/templates/btop.theme'

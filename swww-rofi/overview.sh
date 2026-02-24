@@ -33,7 +33,7 @@ fi
 
 # 这里的 swww img 其实是多余的，因为 QML 已经切换过了
 # 但保留它用于做淡入淡出的特效是可以的
-swww img -n overview "$BLURRED_WALLPAPER_OVERVIEW" \
+ swww img -n overview "$BLURRED_WALLPAPER_OVERVIEW" \
   --transition-type fade \
   --transition-duration 0.5
 
