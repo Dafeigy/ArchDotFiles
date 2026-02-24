@@ -23,7 +23,8 @@
     "tray",
     "network",
     "pulseaudio",
-    "custom/power"
+    // "custom/power",
+	"power-profiles-daemon"
   ],
 
 

@@ -179,6 +179,9 @@ window#waybar {
 
 #power-profiles-daemon {
     color: @secondary;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 #network.disabled {
