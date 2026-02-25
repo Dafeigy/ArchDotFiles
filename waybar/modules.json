@@ -209,10 +209,14 @@
     "tooltip": false
   },
   "custom/splayer": {
-    "exec": "sh ~/.config/waybar/scripts/splayer.sh",
+    "exec": "python3 ~/.config/waybar/scripts/splayer.py",
     "format": "{}",
     "on-click": "curl -s http://localhost:25884/api/control/toggle",
-    "interval": 30,
+    "tooltip": true
+  },
+  "custom/lyricland": {
+    "exec": "python3 ~/.config/waybar/scripts/lyricland.py",
+    "format": "{}",
     "tooltip": true
   }
 }
