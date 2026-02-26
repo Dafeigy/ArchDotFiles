@@ -71,6 +71,11 @@
     "format": "",
     "tooltip": false
   },
+  //lyricland logo
+  "custom/lyriclogo": {
+	  "format": "󰫣",
+	  "tooltip": false
+  },
 
   //左键循环切换性能模式
   "power-profiles-daemon": {
@@ -133,19 +138,26 @@
             "transition-left-to-right": false
         },        
         "modules": [
-             "custom/system",
-            //"disk",
+            "custom/system",
             "cpu",
-	        // "power-profiles-daemon",
             "memory"
-            // "backlight",
-            //"niri/language"
         ]
     },
-  
+	"group/lyc":{
+		"orientation": "inherit",
+		"drawer": {
+			"transition-duration": 300,
+			"children-class": "not-memory",
+			"transition-left-to-right": true
+		},
+		"modules":[
+			"custom/lyriclogo",
+			"custom/lyricland"
+		]
+	},
+
   "battery": {
     "states": {
-      // "good": 95,
       "warning": 30,
       "critical": 15
     },

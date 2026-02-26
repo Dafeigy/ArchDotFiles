@@ -94,8 +94,10 @@ window#waybar {
 #tray,
 #custom-power,
 #custom-splayer,
+#custom-lyricland,
 #custom-pacman,
 #power-profiles-daemon,
+#custom-lyriclogo,
 #custom-system{
     padding: 5px 8px;
     border-style: solid;
@@ -232,6 +234,14 @@ window#waybar {
 
 }
 
+#custom-lyricland {
+	border-radius: 0 10px 10px 0;
+	padding: 5px 10px;
+}
+#custom-lyriclogo {
+	border-radius: 10px 0 0 10px;
+	color: #4169E1;
+}
 #custom-splayer {
 	border-radius: 10px;
 	margin-left: 5px;

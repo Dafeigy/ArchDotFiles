@@ -10,7 +10,7 @@
     "custom/splayer",
 	"custom/cava",
   ],
-  "modules-center": ["clock", "custom/lyricland"],
+  "modules-center": ["clock", "group/lyc"],
   "modules-right": [
     // "custom/pacman",
     // "custom/keyboard-layout",
