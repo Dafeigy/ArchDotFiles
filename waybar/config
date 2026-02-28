@@ -8,9 +8,10 @@
   "modules-left": [ 
     "niri/workspaces", 
     "custom/splayer",
-	"custom/cava",
+	"custom/lyricland"
+	// "custom/cava",
   ],
-  "modules-center": ["clock", "group/lyc"],
+  "modules-center": ["clock"],
   "modules-right": [
     // "custom/pacman",
     // "custom/keyboard-layout",
@@ -18,7 +19,7 @@
     // "cpu",
     // "memory",
     // "disk",
-    "group/hardware",
+    // "group/hardware",
     "battery",
     "tray",
     "network",
