@@ -6,7 +6,7 @@ if [ -n "$1" ]; then
 else
   # 只有没传参数时，才去问 swww (兜底逻辑)
   sleep 0.5
-  WALLPAPER=$(swww query | head -n1 | grep -oP 'image: \K.*')
+  WALLPAPER=$(awww query | head -n1 | grep -oP 'image: \K.*')
 fi
 
 # 检查一下到底有没有拿到路径
@@ -33,7 +33,7 @@ fi
 
 # 这里的 swww img 其实是多余的，因为 QML 已经切换过了
 # 但保留它用于做淡入淡出的特效是可以的
- swww img -n overview "$BLURRED_WALLPAPER_OVERVIEW" \
+ awww img -n overview "$BLURRED_WALLPAPER_OVERVIEW" \
   --transition-type fade \
   --transition-duration 0.5
 

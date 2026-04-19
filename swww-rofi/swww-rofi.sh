@@ -6,9 +6,9 @@ set -euo pipefail
 WALLPAPER_DIR="${WALLPAPER_DIR:-$HOME/Pictures/}"
 ROFI_THEME="${ROFI_THEME:-$HOME/.config/swww-rofi/wallpaper_2_line.rasi}"
 
-# 启动 swww 守护进程
-if ! pgrep -x "swww-daemon" >/dev/null 2>&1; then
-    swww-daemon >/dev/null 2>&1 &
+# 启动 awww 守护进程
+if ! pgrep -x "awww-daemon" >/dev/null 2>&1; then
+    awww-daemon >/dev/null 2>&1 &
     sleep 0.25
 fi
 
@@ -51,11 +51,19 @@ fi
 
 
 # 切换壁纸
-swww img "$SELECTED" \
+awww img "$SELECTED" \
     --transition-type "any" \
     --transition-duration 3 \
     --transition-fps 60 \
     # --transition-bezier .43,1.19,1,.4
+
+awww img "$SELECTED" \
+	-n "overview" \
+    --transition-type "any" \
+    --transition-duration 3 \
+    --transition-fps 60 \
+    # --transition-bezier .43,1.19,1,.4
+
 
 #提取颜色
 matugen image "$SELECTED"

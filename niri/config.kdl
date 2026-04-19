@@ -14,7 +14,7 @@ environment {
 include "colors.kdl"
 
 layer-rule{
-	match namespace="swww-daemonoverview"
+	match namespace="awww-daemonoverview"
 	place-within-backdrop true
 }
 
@@ -281,8 +281,9 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
-spawn-at-startup "swww-daemon"
-spawn-at-startup "swww-daemon" "-n" "overview"
+spawn-at-startup "awww-daemon" "-n" "overview"
+spawn-at-startup "awww-daemon"
+spawn-at-startup "waypaper" "--resotre" "backend" "awww"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "mako"
 spawn-at-startup "fcitx5"

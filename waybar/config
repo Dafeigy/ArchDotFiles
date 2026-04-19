@@ -19,7 +19,7 @@
     // "cpu",
     // "memory",
     // "disk",
-    // "group/hardware",
+    "group/hardware",
     "battery",
     "tray",
     "network",
