@@ -5,9 +5,11 @@
   "margin": "0 0 0 0",
   //"width": 1350, // Waybar width
   // Choose the order of the modules idle_inhibitor
-  "modules-left": [
+  "modules-left": [ 
     "niri/workspaces", 
-    "custom/cava"
+    "custom/splayer",
+	"custom/lyricland"
+	// "custom/cava",
   ],
   "modules-center": ["clock"],
   "modules-right": [
@@ -19,10 +21,11 @@
     // "disk",
     "group/hardware",
     "battery",
-    // "tray",
+    "tray",
     "network",
     "pulseaudio",
-    "custom/power"
+    // "custom/power",
+	"power-profiles-daemon"
   ],
 
 

@@ -71,6 +71,11 @@
     "format": "",
     "tooltip": false
   },
+  //lyricland logo
+  "custom/lyriclogo": {
+	  "format": "󰫣",
+	  "tooltip": false
+  },
 
   //左键循环切换性能模式
   "power-profiles-daemon": {
@@ -78,9 +83,9 @@
     "tooltip-format": "Performance mode:{profile}",
     "tooltip": true,
     "format-icons": {
-      "performance": "󱐋 Maximum",
-      "balanced": " Balance",
-      "power-saver": " Minimum"
+      "performance": "󱐋",
+      "balanced": " ",
+      "power-saver": " "
     }
   },
 
@@ -88,8 +93,9 @@
     "interval": 10,
     "format": "󰍛 {usage}%",
     "rotate": 0,
-    "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+	"on-click": "alacritty --config-file ~/.config/btop/alacritty_btop.toml -e btop",
+	// "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+    // "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
   },
   "memory": {
     "states": {
@@ -133,18 +139,25 @@
         },        
         "modules": [
             "custom/system",
-            "disk",
             "cpu",
-	    "power-profiles-daemon",
             "memory"
-            // "backlight",
-            //"niri/language"
         ]
     },
-  
+	"group/lyc":{
+		"orientation": "inherit",
+		"drawer": {
+			"transition-duration": 300,
+			"children-class": "not-memory",
+			"transition-left-to-right": true
+		},
+		"modules":[
+			"custom/lyriclogo",
+			"custom/lyricland"
+		]
+	},
+
   "battery": {
     "states": {
-      // "good": 95,
       "warning": 30,
       "critical": 15
     },
@@ -175,8 +188,8 @@
   "pulseaudio": {
     "format": "{icon} {volume}",
     "rotate": 0,
-    "format-muted": "婢",
-    "on-click": "pavucontrol",
+    "format-muted": "󰝟 0",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     // "on-scroll-up": "pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob",
     // "on-scroll-down": "pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob"
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
@@ -206,6 +219,17 @@
     "on-click": "wlogout -p layer-shell -b 2",
     //"on-click": "~/.config/rofi/powermenu/powermenu.sh",
     "tooltip": false
+  },
+  "custom/splayer": {
+    "exec": "python3 ~/.config/waybar/scripts/splayer.py",
+    "format": "{}",
+    "on-click": "curl -s http://localhost:25884/api/control/toggle",
+    "tooltip": true
+  },
+  "custom/lyricland": {
+    "exec": "python3 ~/.config/waybar/scripts/lyricland.py",
+    "format": "{}",
+    "tooltip": true
   }
 }
 

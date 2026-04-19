@@ -11,8 +11,10 @@ environment {
 	XMODIFIERS "@im=fcitx"
 }
 
+include "colors.kdl"
+
 layer-rule{
-	match namespace="swww-daemonoverview"
+	match namespace="awww-daemonoverview"
 	place-within-backdrop true
 }
 
@@ -164,7 +166,7 @@ layout {
     // `draw-border-with-background`.
 
     // You can change how the focus ring looks.
-    focus-ring {
+     focus-ring {
         // Uncomment this line to disable the focus ring.
         // off
 
@@ -279,12 +281,14 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
-spawn-at-startup "swww-daemon"
-spawn-at-startup "swww-daemon" "-n" "overview"
+spawn-at-startup "awww-daemon" "-n" "overview"
+spawn-at-startup "awww-daemon"
+spawn-at-startup "waypaper" "--resotre" "backend" "awww"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "mako"
 spawn-at-startup "fcitx5"
-spawn-at-startup "~/.config/niri/scripts/swayidle.sh"
+spawn-at-startup "hypridle"
+// spawn-at-startup "~/.config/niri/scripts/swayidle.sh"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -381,12 +385,12 @@ binds {
     // wl-mirror
 	Mod+P repeat=false { spawn-sh "wl-mirror $(niri msg --json focused-output | jq -r .name)"; }
 	// waypaper
-    Mod+Alt+W hotkey-overlay-title="Manage Wallpaper: waypaper" {spawn "waypaper"; }
+    Mod+Alt+W hotkey-overlay-title="Manage Wallpaper: waypaper" {spawn "bash" "/home/nul4i/.config/swww-rofi/swww-rofi.sh"; }
     Mod+F2 {spawn-sh "pkill waybar || true && waybar" ;}
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
-    Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Mod+D hotkey-overlay-title="Run an Application: Rofi" { spawn "rofi" "-show" "drun"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
     Mod+E hotkey-overlay-title="Open FileViewer: Thunar" {spawn "thunar"; } 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.

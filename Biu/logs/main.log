@@ -252,3 +252,19 @@
 [2026-02-13 17:20:08.494] [error] [unhandledRejection] Error: net::ERR_FAILED
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
     at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-23 18:43:53.982] [info]  Checking for update
+[2026-02-23 18:43:56.319] [info]  Update for version 1.16.0 is not available (latest version: 1.16.0, downgrade is disallowed).
+[2026-02-23 19:43:54.085] [info]  Checking for update
+[2026-02-23 19:45:24.303] [error] Error: Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-23 19:45:24.304] [error] [unhandledRejection] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-24 00:48:52.691] [info]  Checking for update
+[2026-02-24 01:05:33.115] [error] Error: Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+[2026-02-24 01:05:33.119] [error] [unhandledRejection] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124413)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)

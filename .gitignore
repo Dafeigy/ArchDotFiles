@@ -12,7 +12,7 @@ Code/
 
 mimeapps.list
 
-Biu/
+Biu
 
 autostart/
 
@@ -25,4 +25,10 @@ obs-studio/
 SPlayer/
 
 mpv/
+
+ibus/
+
+fcitx
+
+fcitx5
 

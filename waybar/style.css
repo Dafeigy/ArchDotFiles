@@ -93,8 +93,11 @@ window#waybar {
 #mode,
 #tray,
 #custom-power,
+#custom-splayer,
+#custom-lyricland,
 #custom-pacman,
 #power-profiles-daemon,
+#custom-lyriclogo,
 #custom-system{
     padding: 5px 8px;
     border-style: solid;
@@ -156,7 +159,7 @@ window#waybar {
 
 #custom-system {
     color: @secondary;
-    /* border-bottom: 2px solid @sky; */
+	/* border-bottom: 2px solid @sky; */
 }
 
 #cpu {
@@ -178,6 +181,9 @@ window#waybar {
 
 #power-profiles-daemon {
     color: @secondary;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 #network.disabled {
@@ -205,7 +211,7 @@ window#waybar {
 }
 
 #pulseaudio.muted {
-    color: #3b4252;
+    color: #ff4500;
     /* border-bottom: 2px solid #3b4252; */
 }
 
@@ -220,19 +226,34 @@ window#waybar {
     /* border-bottom: 2px solid @red; */
 }
 
-#ytray {
+#tray {
     /* background-color: @base; */
-    margin: 8px 5px;
+    margin-right: 5px;
+	margin-left: 10px;
     border-radius: 10px;
+
 }
 
-
+#custom-lyricland {
+	border-radius: 0 10px 10px 0;
+	padding: 5px 10px;
+}
+#custom-lyriclogo {
+	border-radius: 10px 0 0 10px;
+	color: #4169E1;
+}
+#custom-splayer {
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px 10px;
+}
 #custom-power {
     color: @background;
     background-color: @on_primary_container;
     border-radius: 10px;
     margin-left: 5px;
-    margin-right: 15px;
+    margin-right: 10px;
     padding: 5px 10px;
 }
 
@@ -305,8 +326,8 @@ window#waybar {
  }
  
  #network {
-     margin-left: 15px;
-	 margin-right: 15px;
+     margin-left: 5px;
+	 margin-right: 5px;
 	 color: #8fbcbb;
 	 color: #ffffff;
  }
