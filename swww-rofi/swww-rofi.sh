@@ -57,16 +57,10 @@ awww img "$SELECTED" \
     --transition-fps 60 \
     # --transition-bezier .43,1.19,1,.4
 
-awww img "$SELECTED" \
-	-n "overview" \
-    --transition-type "any" \
-    --transition-duration 3 \
-    --transition-fps 60 \
-    # --transition-bezier .43,1.19,1,.4
 
 
 #提取颜色
-matugen image "$SELECTED"
+# matugen image "$SELECTED"
 bash /home/nul4i/.config/swww-rofi/overview.sh
 # 发送通知
 if command -v notify-send >/dev/null 2>&1; then
