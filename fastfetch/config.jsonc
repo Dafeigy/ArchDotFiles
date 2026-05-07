@@ -4,11 +4,11 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "~/.config/fastfetch/arch",
+    "source": "~/.config/fastfetch/scripts/routefetch.sh",
     "color": {
       "1": "blue"
     },
-    "type": "file",
+    "type": "command-raw",
     "padding": {
       "top": 3
     }
@@ -18,12 +18,10 @@
   },
   "modules": [
 	"break",
-	"break",
     {
       "type": "custom",
       "format": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
     },
-    "break",
 	"break",
     {
       "type": "os",
@@ -55,14 +53,6 @@
       "key": "  ",
       "keyColor": "yellow"
     },
-    "break",
-	"break",
-    {
-      "type": "custom",
-      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
-    },
-    "break",
-	"break",
     {
       "type": "host",
       "key": "  ",
@@ -74,11 +64,6 @@
       "keyColor": "bright_green"
     },
     {
-      "type": "gpu",
-      "key": "  󱤓",
-      "keyColor": "red"
-    },
-    {
       "type": "memory",
       "key": "  󰍛",
       "keyColor": "bright_yellow"
@@ -88,7 +73,6 @@
       "key": "  ",
       "keyColor": "bright_cyan"
     },
-    "break",
 	"break",
     {
       "type": "custom",
