@@ -57,8 +57,7 @@ awww img "$SELECTED" \
     --transition-fps 60 \
     # --transition-bezier .43,1.19,1,.4
 
-
-
+waypaper --wallpaper "$SELECTED"
 #提取颜色
 # matugen image "$SELECTED"
 bash /home/nul4i/.config/swww-rofi/overview.sh
