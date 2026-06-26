@@ -54,7 +54,7 @@ fi
 # 只用 waypaper 来设置壁纸（内部会用 awww），避免重复设置导致双次触发
 waypaper --wallpaper "$SELECTED"
 #提取颜色
-# matugen image "$SELECTED"
+matugen image "$SELECTED" --config ~/.config/matugen/config.toml --source-color-index 0 -q
 bash ~/.config/swww-rofi/overview.sh
 # 发送通知
 if command -v notify-send >/dev/null 2>&1; then
