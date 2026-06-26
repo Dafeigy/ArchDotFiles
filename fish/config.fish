@@ -14,3 +14,4 @@ if status is-interactive
 	abbr -a ccc claude
 end
 abbr --add ff 'clear && fastfetch'
+set -gx PATH ~/.local/bin $PATH

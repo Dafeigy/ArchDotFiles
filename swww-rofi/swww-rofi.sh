@@ -51,12 +51,7 @@ fi
 
 
 # 切换壁纸
-awww img "$SELECTED" \
-    --transition-type "any" \
-    --transition-duration 3 \
-    --transition-fps 60 \
-    # --transition-bezier .43,1.19,1,.4
-
+# 只用 waypaper 来设置壁纸（内部会用 awww），避免重复设置导致双次触发
 waypaper --wallpaper "$SELECTED"
 #提取颜色
 # matugen image "$SELECTED"
