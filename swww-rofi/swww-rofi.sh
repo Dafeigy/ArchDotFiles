@@ -60,7 +60,7 @@ awww img "$SELECTED" \
 waypaper --wallpaper "$SELECTED"
 #提取颜色
 # matugen image "$SELECTED"
-bash /home/nul4i/.config/swww-rofi/overview.sh
+bash ~/.config/swww-rofi/overview.sh
 # 发送通知
 if command -v notify-send >/dev/null 2>&1; then
     notify-send "壁纸已切换" "$(basename "$SELECTED")" -i "$SELECTED"

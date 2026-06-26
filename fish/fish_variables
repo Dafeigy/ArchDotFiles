@@ -1,5 +1,5 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export PYENV_ROOT:/home/nul4i/\x2epyenv
+SETUVAR --export PYENV_ROOT:/home/cybersh1t/\x2epyenv
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/nul4i/\x2epyenv/bin
+SETUVAR fish_user_paths:/home/cybersh1t/\x2epyenv/bin
