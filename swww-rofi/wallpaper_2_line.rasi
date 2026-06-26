@@ -1,4 +1,4 @@
-@import "/home/nul4i/.config/rofi/colors.rasi"
+@import "~/.config/rofi/colors.rasi"
  * {
     /* 柔和粉紫基调 */
     base-bg: rgba(30, 30, 46, 0.85);      

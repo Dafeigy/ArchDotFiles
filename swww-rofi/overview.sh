@@ -4,7 +4,7 @@
 if [ -n "$1" ]; then
   WALLPAPER="$1"
 else
-  # 只有没传参数时，才去问 swww (兜底逻辑)
+  # 只有没传参数时，才去问 awww (兜底逻辑)
   sleep 0.5
   WALLPAPER=$(awww query | head -n1 | grep -oP 'image: \K.*')
 fi
