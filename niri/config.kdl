@@ -284,10 +284,10 @@ spawn-at-startup "waybar"
 spawn-at-startup "awww-daemon" "-n" "overview"
 spawn-at-startup "awww-daemon"
 // spawn-at-startup "waypaper" "--resotre" "backend" "awww"
-spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "mako"
 spawn-at-startup "fcitx5"
-spawn-at-startup "hypridle"
+spawn-at-startup "/usr/bin/hypridle"
 // spawn-at-startup "~/.config/niri/scripts/swayidle.sh"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
