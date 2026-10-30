@@ -55,7 +55,7 @@ fi
 waypaper --wallpaper "$SELECTED"
 #提取颜色
 matugen image "$SELECTED" --config ~/.config/matugen/config.toml --source-color-index 0 -q
-bash ~/.config/swww-rofi/overview.sh
+bash ~/.config/swww-rofi/overview.sh "$SELECTED"
 # 发送通知
 if command -v notify-send >/dev/null 2>&1; then
     notify-send "壁纸已切换" "$(basename "$SELECTED")" -i "$SELECTED"

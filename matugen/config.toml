@@ -1,5 +1,9 @@
-[config.wallpaper]
-command = 'awww img --transition-type wipe {{ image }}'
+# Wallpaper changes are handled by waypaper in swww-rofi.sh. Keeping a
+# wallpaper command here makes `matugen image` set the same wallpaper again.
+# Keep the required config table, but leave its wallpaper hook unset.
+[config]
+# [config.wallpaper]
+# command = 'awww img --transition-type wipe {{ image }}'
 # set = true
 
 [templates.waybar]

@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export DEEPSEEK_API_KEY:sk\x2d84ad0d30d79047b9ad00e23963f58977
 SETUVAR --export PYENV_ROOT:/home/cybersh1t/\x2epyenv
 SETUVAR __fish_initialized:4300
 SETUVAR fish_user_paths:/home/cybersh1t/\x2epyenv/bin

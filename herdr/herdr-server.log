@@ -1,0 +1,32 @@
+2026-07-16T03:22:29.155674Z  INFO herdr::api::server: api server listening path=/home/cybersh1t/.config/herdr/herdr.sock
+2026-07-16T03:22:29.157014Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-16T03:22:29.229246Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-16T03:22:29.231818Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-16T03:22:29.233294Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=77280
+2026-07-16T03:22:29.233523Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-16T03:22:29.233533Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-16T03:22:29.233556Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-16T03:22:29.233568Z  INFO herdr::server::headless: created startup workspace cwd=/home/cybersh1t
+2026-07-16T03:22:29.233688Z  INFO herdr::server::headless: client protocol socket listening path=/home/cybersh1t/.config/herdr/herdr-client.sock
+2026-07-16T03:22:29.233727Z  INFO herdr::server::headless: herdr server started api_socket=/home/cybersh1t/.config/herdr/herdr.sock client_socket=/home/cybersh1t/.config/herdr/herdr-client.sock
+2026-07-16T03:22:29.233746Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=77263
+2026-07-16T03:22:29.352531Z  INFO herdr::server::headless: client connected client_id=2 cols=78 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-16T03:22:30.557521Z  INFO herdr::server::headless: client resize client_id=2 cols=162 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-16T03:22:34.235367Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cybersh1t/.config/herdr/session.json workspaces=1
+2026-07-16T03:22:34.804699Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(77371)
+2026-07-16T03:22:41.020370Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=44 cols=136 scrollback_limit_bytes=10000000
+2026-07-16T03:22:41.022655Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=77451
+2026-07-16T03:22:41.022957Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-07-16T03:22:41.022977Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-16T03:22:41.023104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-16T03:22:46.034353Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cybersh1t/.config/herdr/session.json workspaces=2
+2026-07-16T03:22:50.113494Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(77570)
+2026-07-16T03:22:54.249256Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-16T03:22:54.249457Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-16T03:22:55.348045Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-16T03:22:55.348385Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-16T03:23:00.350501Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/cybersh1t/.config/herdr/session.json workspaces=2
+2026-07-16T03:23:22.005672Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(77570)
+2026-07-16T03:23:22.005699Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(77371)
+2026-07-16T03:24:49.933940Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-16T03:52:29.231203Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"

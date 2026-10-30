@@ -31,12 +31,20 @@ if [ ! -f "$BLURRED_WALLPAPER" ] || [ ! -f "$BLURRED_WALLPAPER_OVERVIEW" ]; then
   magick "$WALLPAPER" -blur 0x30 "$BLURRED_WALLPAPER"
 fi
 
-# 这里的 swww img 其实是多余的，因为 QML 已经切换过了
-# 但保留它用于做淡入淡出的特效是可以的
- awww img "$BLURRED_WALLPAPER_OVERVIEW" \
-  -n "overview" \
-  --transition-type fade \
-  --transition-duration 0.5
+# Update the dedicated Niri overview wallpaper immediately. The normal
+# desktop wallpaper transition is handled separately by waypaper.
+if ! awww query --namespace overview >/dev/null 2>&1; then
+  # Niri normally starts this namespace at login. Start it here as a fallback
+  # if it is unavailable, then wait briefly for its socket to become ready.
+  awww-daemon --namespace overview >/dev/null 2>&1 &
+  for _ in {1..20}; do
+    awww query --namespace overview >/dev/null 2>&1 && break
+    sleep 0.1
+  done
+fi
+
+awww img --namespace overview "$BLURRED_WALLPAPER_OVERVIEW" \
+  --transition-type none
 
 # ============================================================
 # 核心保存逻辑
